@@ -7,9 +7,7 @@ function About() {
     return (
     <div className="container aboutus">
         <div className="row">
-            <div className="col-md-6 col-12 my-auto">
-                <img src={require('../images/about.svg')} alt="about us" className="img-fluid" />
-            </div>
+           
             <div className="col-md-6 col-12 my-auto">
                 <h1 className="display-4 text-center my-5">About Us </h1>
                 <p className="lead text-justify text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officia eligendi dolorem molestias nesciunt aliquam deserunt velit fuga quidem atque?</p>
@@ -26,66 +24,12 @@ function About() {
         </div>
         
         <div className="team">
-            <h1 className="display-4">Our Team</h1>
+            <h1 className="display-4"></h1>
         </div>
         <div className="row mb-5">
-            {/* <div className="col-md-4 col-12 mx-auto my-2">
-                <div className="card border-0 shadow-lg p-4">
-                    <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" className="card-img-top" alt="director" /> 
-                    <div className="card-body">
-                        <h5 className="card-title mb-0">Director</h5>
-                         <div className="card-text text-black-50">CEO <p className="float-right"></p>
-                        </div>
-                         <h6 className="mt-5">CONNECT</h6>
-                        <div className="d-flex justify-content-around">
-                            <FaFacebookSquare className="connect" />
-                            <AiFillInstagram className="connect" />
-                            <FaLinkedin className="connect" />
-                            <IoLogoYoutube className="connect" />
-                        </div> 
-                    </div>
-                </div>
-            </div> */}
-            <div className="col-md-4 col-12 mx-auto my-2">
-                <div className="card border-0 shadow-lg p-4">
-                    {/* <img src="https://source.unsplash.com/sNut2MqSmds/500x350" className="card-img-top" alt="director" /> */}
-                    <div className="card-body">
-                        <h5 className="card-title mb-0">Team Member</h5>
-                        <br></br>
-                        <h4><b>VIGNESWARAN G</b></h4>
-                        {/* <div className="card-text text-black-50">Manager <p className="float-right">5 years</p> */}
-                        </div>
-                        {/* <h6 className="mt-5">CONNECT</h6>
-                        <div className="d-flex justify-content-around">
-                            <FaFacebookSquare className="connect" />
-                            <AiFillInstagram className="connect" />
-                            <FaLinkedin className="connect" />
-                            <IoLogoYoutube className="connect" />
-                        </div> */}
-                    </div>
-                </div>
-            </div>
-            <div className="col-md-4 col-12 mx-auto my-2">
-                <div className="card border-0 shadow-lg p-4">
-                    {/* <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" className="card-img-top" alt="director" /> */}
-                    <div className="card-body">
-                        <h5 className="card-title mb-0">Team Member</h5>
-                        <br></br>
-                        <h4><b>NARENDRANATH K</b></h4>
-                        {/* <div className="card-text text-black-50">Manager <p className="float-right">8 years</p> */}
-                        </div>
-                        {/* <h6 className="mt-5">CONNECT</h6>
-                        <div className="d-flex justify-content-around">
-                            <FaFacebookSquare className="connect" />
-                            <AiFillInstagram className="connect" />
-                            <FaLinkedin className="connect" />
-                            <IoLogoYoutube className="connect" />
-                        </div> */}
-                    </div>
-                </div>
-            </div>
-        // </div>
-    // </div>
+        
+         </div>
+     </div>
     )
 }
 export default About;

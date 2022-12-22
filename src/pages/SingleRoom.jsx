@@ -37,7 +37,7 @@ export default class SingleRoom extends Component {
             <StyledHero img={mainImg || this.state.defaultBcg }>
            
             <Banner title={`${name} room`}>
-                    <Link to="/rooms" className="btn btn-primary">Back To Rooms</Link>
+                    <Link to="/rooms" className="btn btn-primary">Back To Homes</Link>
             </Banner>
             </StyledHero>
             <section className="single-room container">
@@ -64,8 +64,7 @@ export default class SingleRoom extends Component {
                           max capacity : {" "}
                               {capacity > 1 ? `${capacity} people`: `${capacity} person`}
                       </h6>
-                      <h6>{pets? 'pets allowed': 'no pets allowed'}</h6>
-                      <h6>{breakfast && "free breakfast included"}</h6>
+                      
                    </article>
                </div>
             </section>

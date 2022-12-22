@@ -21,7 +21,6 @@ body {
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
-/* globals */
 h1 {
   font-size: 3em;
   line-height: 1;
@@ -111,8 +110,6 @@ h6 {
   letter-spacing: var(--mainSpacing);
 }
 
-/* end of globals */
-/* Navbar */
 .nav-link{
   padding: 8px 15px;
   margin-left: 10px;
@@ -168,9 +165,6 @@ input[type=number]:focus,
 box-shadow: inset 0 -1px 0 #ddd;
 }
 
-
-/* end of navbar */
-/* Hero */
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 0px);
@@ -197,8 +191,6 @@ box-shadow: inset 0 -1px 0 #ddd;
   color: yellow;
   text-align: center;
 }
-/* End of Hero */
-/* Banner */
 .banner {
   display: inline-block;
   position: absolute!important;
@@ -240,8 +232,6 @@ box-shadow: inset 0 -1px 0 #ddd;
     font-size: 4rem;
   }
 }
-/* End of Banner */
-/* Title */
 .section-title {
   text-align: center;
   margin-bottom: 4rem;
@@ -258,9 +248,6 @@ box-shadow: inset 0 -1px 0 #ddd;
   margin: 0 auto;
   background: var(--primaryColor);
 }
-/* end of Title */
-
-/* services */
 .services {
   padding: 3rem 0;
 }
@@ -308,15 +295,11 @@ box-shadow: inset 0 -1px 0 #ddd;
     width: 100%;
   }
 }
-/*end of services */
-/* featured rooms */
 
 .featured-rooms {
   padding: 5rem 0;
 }
 
-/* end pf featured rooms */
-/* room */
 .room {
   transition: 0.4s linear;
   -webkit-transition: 0.4s linear;
@@ -384,9 +367,6 @@ box-shadow: inset 0 -1px 0 #ddd;
   letter-spacing: var(--mainSpacing);
   margin-bottom: 0;
 }
-/* end of room  */
-/* single room*/
-
 .single-room {
   padding: 5rem 0 0 0;
 }
@@ -459,8 +439,6 @@ box-shadow: inset 0 -1px 0 #ddd;
     padding-left: 3rem;
   }
 }
-/* end of single room*/
-/* roomlist */
 .roomslist {
   padding: 5rem 0;
 }
@@ -484,30 +462,11 @@ box-shadow: inset 0 -1px 0 #ddd;
     max-width: 1170px;
   }
 }
-/* end of roomlist */
-/*  rooms fitler*/
-/* .filter-container {
-  padding: 5rem 0;
-}
-
-.form-group {
-  text-transform: capitalize;
-}
-.form-group label {
-  display: block;
-  letter-spacing: var(--mainSpacing);
-  margin-bottom: 0.5rem;
-} */
-
 .single-extra label {
   display: inline-block;
   font-size: 0.8rem;
   margin-left: 0.5rem;
 }
-
-/* end of rooms fitler*/
-
-/* aboutus */
 
 .aboutus,.contact{
   margin-top: 100px!important;
@@ -526,4 +485,3 @@ box-shadow: inset 0 -1px 0 #ddd;
   font-size: 44px!important;
   padding: 5px 8px;
 }
-/* end of about us */

@@ -12,7 +12,7 @@ export default class nBooknow extends Component {
       slug: this.props.match.params.slug,
       defaultBcg,
       startDate: new Date(),
-      endDate: new Date
+      endDate: new Date()
       ,
     };
     this.handleChangeEnd = this.handleChangeEnd.bind(this);
@@ -65,9 +65,9 @@ export default class nBooknow extends Component {
             <div className="col-md-6 col-12 mx-auto">
               <div className="card shadow-lg border-0 p-4 error">
                 <h1 className="text-center display-4">SORRY</h1>
-                <h3>No such room could be found...</h3>
+                <h3>No such house could be found...</h3>
                 <Link to="/rooms" className="btn btn-warning mt-4 ">
-                  Back to Rooms
+                  Back to House
                 </Link>
               </div>
             </div>
@@ -93,11 +93,11 @@ export default class nBooknow extends Component {
                 />
               </div>
               <div className="col-md-6 col-12 my-auto">
-                <h1>Rooms Details</h1>
+                <h1>House Details</h1>
                 <table className="table">
                   <thead className="thead-light">
                     <tr>
-                      <th>Room Type</th>
+                      <th>House Type</th>
                       <td>{name}</td>
                     </tr>
                     <tr>
@@ -108,62 +108,22 @@ export default class nBooknow extends Component {
                       <th>Size</th>
                       <td>{size} sqft.</td>
                     </tr>
-                    <tr>
-                      <th>Breakfast</th>
-                      <td>
-                        {breakfast === true ? `Included` : `Not Included`}
-                      </td>
-                    </tr>
-                    <tr>
-                      <th>Pets</th>
-                      <td>{pets === true ? `Allowed` : `Not Allowed`}</td>
-                    </tr>
+                    
                   </thead>
                 </table>
               </div>
             </div>
-            <div className="row my-3">
-              <div className="col-md-6 col-12">
-                <div className="form-group">
-                  <label htmlFor="Fromdate" className="font-weight-bolder mr-3">
-                    From Date{" "}
-                  </label>
-                  <DatePicker
-                    selected={this.state.startDate}
-                    onChange={this.handleChangeStart}
-                    className="form-control"
-                  />
-                </div>
-              </div>
-              <div className="col-md-6 col-12">
-                <div className="form-group">
-                  <label htmlFor="Todate" className="font-weight-bolder mr-3">
-                    To Date{" "}
-                  </label>
-                  <DatePicker
-                    selected={this.state.endDate}
-                    onChange={this.handleChangeEnd}
-                    className="form-control"
-                  />
-                </div>
-              </div>
-            </div>
+            
             <div className="row">
               <div className="col-md-6 col-12">
-                <h6 className="font-weight-bolder">
-                  Number of days : {daysLeft}
-                </h6>
-                <mark>Please make sure Checkin time is from 9 am to 12 pm</mark>
+               
               </div>
               <div className="col-md-6 col-12">
                 <h6 className="font-weight-bold">
-                  Price per day :{" "}
+                  Net Amount :{" "}
                   <span className="badge badge-info">Rs {price}</span>
                 </h6>
-                <h6 className="font-weight-bold">
-                  Total Price to be paid :{" "}
-                  <span className="text-primary">Rs {daysLeft * price}</span>
-                </h6>
+              
               </div>
             </div>
             <div className="row my-4">
@@ -176,7 +136,7 @@ export default class nBooknow extends Component {
                     <option disabled>Select payment option</option>
                     <option value="Credit">Credit Card</option>
                     <option value="Debit">Debit Card</option>
-                    <option value="checkin">Pay during Checkin</option>
+                    <option value="checkin">Pay After Visiting the House</option>
                   </select>
                 </div>
               </div>
@@ -190,7 +150,7 @@ export default class nBooknow extends Component {
                       this.bookNow();
                     }}
                   >
-                    Confirm Booking
+                    Confirm 
                   </button>
                 </div>
               </div>
@@ -202,7 +162,7 @@ export default class nBooknow extends Component {
             <div className="modal-content">
               <div className="modal-body p-4">
                 <h3>Thank you </h3>
-                <p className="lead">Your room is booked successfully....</p>
+                <p className="lead">Thanks for visiting us</p>
               </div>
               <div className="modal-footer">
                 <Link to="/" className="btn btn-dark">

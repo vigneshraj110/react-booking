@@ -12,7 +12,7 @@ export default function RoomsList({rooms}) {
                         </div>
                         <div className="col-md-6 col-12 mx-auto">
                             <div className="empty-search">
-                                <h3 className="display-4">No Rooms available at that Price</h3>
+                                <h3 className="display-4">No House available at that Price</h3>
                             </div>
                         </div>
                     </div>

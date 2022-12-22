@@ -8,7 +8,7 @@ const Rooms = () => {
     <div>
         <Hero hero="roomsHero">
         </Hero>
-        <Banner title="Available Rooms" subtitle="Best in Class Room">
+        <Banner title="Available Homes" subtitle="Best in Class Houses">
                 <Link to="/" className="btn btn-warning">
                       RETURN HOME
                 </Link>
